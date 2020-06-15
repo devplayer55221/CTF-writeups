@@ -7,8 +7,8 @@
 It says only agent95 is allowed, and that the older version of windows is required, so check for windows 95,  and change ‘User agent’ header by capturing the request in burp suite.
 This is what gives us the flag:
 **Windows 95; Microsoft x86_64**
-  
-<img src="https://github.com/devPlayer55221/CTF-writeups/blob/master/NahamCon%20CTF/images/agent95-1.png">
+
+<img src="https://github.com/devPlayer55221/CTF-writeups/blob/master/NahamCon%20CTF/images/agent95-2.png">
 
 ### Localghost
 
