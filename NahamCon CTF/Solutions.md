@@ -13,11 +13,21 @@ This is what gives us the flag:
 ### Localghost
 
 Open the source code of the page.  We can find a file used ‘jquery.jscroll2.js’. Open this js file and we get lots of code. Copy the contents of the variable "_0xbcec" 
- 
+
+<img src="https://github.com/devPlayer55221/CTF-writeups/blob/master/NahamCon%20CTF/images/localghost-1.png">
+
 Using the find and replace we remove "\x" from the contents. Below is the hex we get after removing them.
+
+<img src="https://github.com/devPlayer55221/CTF-writeups/blob/master/NahamCon%20CTF/images/localghost-2.png">
  
-The result we get is a series of hex characters. Convert it to text and we again find some script. **SkNURntzcG9vb29va3lfZ2hvc3RzX2luX3N0b3JhZ2V9**
+The result we get is a series of hex characters. Convert it to text and we again find some script.
+
+<img src="https://github.com/devPlayer55221/CTF-writeups/blob/master/NahamCon%20CTF/images/localghost-3.png">
+
+**SkNURntzcG9vb29va3lfZ2hvc3RzX2luX3N0b3JhZ2V9**
 This is the thing which could give us the flag, as it looks odd in the code above. This is base 64 encoded. Decode it, and the flag is found.
+
+<img src="https://github.com/devPlayer55221/CTF-writeups/blob/master/NahamCon%20CTF/images/localghost-4.png">
  
 ## Warmup
 
