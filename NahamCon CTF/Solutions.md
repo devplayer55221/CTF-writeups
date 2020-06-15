@@ -25,6 +25,7 @@ The result we get is a series of hex characters. Convert it to text and we again
 <img src="https://github.com/devPlayer55221/CTF-writeups/blob/master/NahamCon%20CTF/images/localghost-3.png">
 
 **SkNURntzcG9vb29va3lfZ2hvc3RzX2luX3N0b3JhZ2V9**
+
 This is the thing which could give us the flag, as it looks odd in the code above. This is base 64 encoded. Decode it, and the flag is found.
 
 <img src="https://github.com/devPlayer55221/CTF-writeups/blob/master/NahamCon%20CTF/images/localghost-4.png">
@@ -41,6 +42,8 @@ Just download the file and through terminal, type :
 ```strings clisay```
 We get the flag. 
 
+<img src="https://github.com/devPlayer55221/CTF-writeups/blob/master/NahamCon%20CTF/images/clisay-1.png">
+
 ### Metameme
 
 The command is : 
@@ -50,6 +53,10 @@ The command is :
 
 Using burp suite we capture the request, and find that the cookie is our input rotated by 13, therefore rotate admin by 13, and we get the flag. 
  
+ <img src="https://github.com/devPlayer55221/CTF-writeups/blob/master/NahamCon%20CTF/images/uggc-1.png">
+
 Here the user in cookie got set as ‘nopq’ when input is ‘abcd’. 
 So, rotate ‘admin’ by 13, and the result is ‘nqzva’.
  
+ <img src="https://github.com/devPlayer55221/CTF-writeups/blob/master/NahamCon%20CTF/images/uggc-2.png">
+
