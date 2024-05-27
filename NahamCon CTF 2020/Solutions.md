@@ -58,5 +58,5 @@ Using burp suite we capture the request, and find that the cookie is our input r
 Here the user in cookie got set as ‘nopq’ when input is ‘abcd’. 
 So, rotate ‘admin’ by 13, and the result is ‘nqzva’.
  
- <img src="https://github.com/devPlayer55221/CTF-writeups/blob/master/NahamCon%20CTF/images/uggc-2.png">
+ <img src="https://github.com/devPlayer55221/CTF-writeups/blob/master/NahamCon%20CTF%202020/images/uggc-2.png">
 
